@@ -1,0 +1,25 @@
+{
+  "name": "demo-2",
+  "version": "1.0.0",
+  "description": "demo-2",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/selenium-webdriver": "^4.0.15",
+    "chromedriver": "^92.0.1",
+    "geckodriver": "^2.0.3",
+    "jest": "^27.0.6",
+    "puppeteer": "^10.2.0",
+    "selenium-webdriver": "^4.0.0-beta.4",
+    "ts-jest": "^27.0.5"
+  },
+  "scripts": {
+    "test": "npx jest ./lib/__tests__/ --detectOpenHandles --setupTestFrameworkScriptFile='./setup.ts'",
+    "test-pom": "npx jest ./lib/__tests__/demo-pom.test.ts --detectOpenHandles --setupTestFrameworkScriptFile='./setup.ts'"
+  },
+  "author": "",
+  "license": "ISC"
+}

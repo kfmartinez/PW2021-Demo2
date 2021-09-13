@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://www.npmtrends.com",
+  "uiDriver": "selenium",
+  "browser": "chrome"
+}
